@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+ul {
+    display: flex;
+    list-style: none;
+}
+
+header {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+li {
+    padding-left: 50px; 
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.buy {
+    padding-right: 325px ;
+    padding-left: 325px;
+}
+
+h1{
+    justify-content: center;
+    display: flex;
+}
+p{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-style: unset;
+}
+img{
+    width: 700px;
+    height: 400px;
+}
+.Iphone{
+    padding-left: 500px;
+    
+}
+footer{
+    background-color: grey;
+}
+html{
+    background-image: url(backimage.jpg);
+    background-repeat: no-repeat;
+}
